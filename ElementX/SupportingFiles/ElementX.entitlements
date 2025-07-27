@@ -6,9 +6,9 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:element.io</string>
-		<string>applinks:app.element.io</string>
-		<string>applinks:staging.element.io</string>
+		<string>applinks:grey.ceo</string>
+		<string>applinks:app.grey.ceo</string>
+		<string>applinks:staging.grey.ceo</string>
 		<string>applinks:develop.element.io</string>
 		<string>applinks:mobile.element.io</string>
 		<string>applinks:call.element.io</string>
@@ -22,7 +22,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>$(APP_GROUP_IDENTIFIER)</string>
+		<string>group.ceo.grey</string>
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>
