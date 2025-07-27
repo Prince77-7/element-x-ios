@@ -23,32 +23,13 @@ struct AuthenticationStartLogo: View {
     
     var body: some View {
         Image(asset: Asset.Images.appLogo)
+            .padding(40)
             .background {
-                Circle()
-                    .inset(by: 1)
-                    .shadow(color: .black.opacity(!isLight && isOnGradient ? 0.3 : 0.4),
-                            radius: 12.57143,
-                            y: 6.28571)
-                
-                Circle()
-                    .inset(by: 1)
-                    .shadow(color: .black.opacity(0.5),
-                            radius: 12.57143,
-                            y: 6.28571)
-                    .blendMode(.overlay)
-            }
-            .padding(24)
-            .background {
-                Color.white
-                    .opacity(isLight ? 0.23 : isOnGradient ? 0.05 : 0.13)
+                RoundedRectangle(cornerRadius: 36)
+                    .fill(Color.black.opacity(0.9))
+                    .padding(8)
             }
             .clipShape(outerShape)
-            .overlay {
-                outerShape
-                    .inset(by: 0.25)
-                    .stroke(.white.opacity(isLight ? 1 : isOnGradient ? 0.9 : 0.25), lineWidth: 0.5)
-                    .blendMode(isLight ? .normal : .overlay)
-            }
             .padding(extra)
             .background {
                 ZStack {

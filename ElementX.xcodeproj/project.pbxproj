@@ -8463,6 +8463,7 @@
 				DEVELOPMENT_ASSET_PATHS = DevelopmentAssets/Media;
 				DEVELOPMENT_TEAM = R2UFWRGG3W;
 				INFOPLIST_FILE = ElementX/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Grey;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8490,6 +8491,7 @@
 				DEVELOPMENT_ASSET_PATHS = DevelopmentAssets/Media;
 				DEVELOPMENT_TEAM = R2UFWRGG3W;
 				INFOPLIST_FILE = ElementX/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Grey;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
